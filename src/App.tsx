@@ -4,6 +4,9 @@ import Links from './components/Links';
 import data from './data';
 
 function App() {
+  const onRedirect = (href: string) => {
+    window.open(href, '_blank');
+  };
   return (
     <main
       className="bg-dark-gray max-w-full w-8/12 max-mobile:w-[20.5rem] mx-auto mt-[7.25rem] rounded-lg text-color-white
@@ -20,9 +23,9 @@ function App() {
           {data.map((media) => (
             <Links
               key={media.name}
-              href={media.link}
               text={media.name}
               isDisabled={media.disabled}
+              onClick={() => onRedirect(media.link)}
             />
           ))}
         </div>
