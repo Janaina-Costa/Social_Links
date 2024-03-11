@@ -10,7 +10,7 @@ const data = [
     disabled: true,
   },
   {
-    name: 'Site',
+    name: 'Web Site',
     link: '',
     disabled: true,
   },

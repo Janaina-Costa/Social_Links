@@ -9,7 +9,7 @@ function App() {
   };
   return (
     <main
-      className="bg-dark-gray max-w-full w-8/12 max-mobile:w-[20.5rem] mx-auto my-8 rounded-lg text-color-white overflow-hidden
+      className="bg-dark-gray max-w-full w-[54rem] max-mobile:w-[20.5rem] mx-auto my-8 rounded-lg text-color-white overflow-hidden
     "
     >
       <section className="p-6 flex flex-col justify-center items-center text-lg">
