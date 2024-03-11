@@ -5,7 +5,7 @@ import data from './data';
 
 function App() {
   const onRedirect = (href: string) => {
-    window.open(href, '_blank');
+    window.location.href = href;
   };
   return (
     <main
