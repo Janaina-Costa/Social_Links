@@ -5,21 +5,7 @@ import data from './data';
 
 function App() {
   const onRedirect = (href: string) => {
-    let deepLink = href;
-    const fallbackLink = href;
-
-    if (href.includes('youtube.com')) {
-      deepLink = href.replace('https://', 'youtube://');
-    } else if (href.includes('tiktok.com')) {
-      deepLink = href.replace('https://', 'snssdk1128://');
-    }
-    const timeout = setTimeout(() => {
-      window.location.href = fallbackLink;
-    }, 1000);
-
-    window.location.href = deepLink;
-
-    window.addEventListener('blur', () => clearTimeout(timeout));
+    window.location.href = href;
   };
   return (
     <main
