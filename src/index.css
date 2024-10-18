@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   overflow: hidden;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   background-color: hsl(0, 0%, 8%);
 }

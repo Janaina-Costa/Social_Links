@@ -6,8 +6,8 @@ const data = [
   },
   {
     name: 'Tik Tok',
-    link: '',
-    disabled: true,
+    link: 'https://www.tiktok.com/@vozesdafolia3?_t=8qdJ2BzjvPC&_r=1 ',
+    disabled: false,
   },
   {
     name: 'Web Site',
